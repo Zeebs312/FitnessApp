@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+
 class MainActivity : AppCompatActivity() {
     // private fields of the class
     private lateinit var _button_explicit: Button
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         // pull a reference to the textview
-        _textview = findViewById<TextView>(R.id.textview)
+        //_textview = findViewById<TextView>(R.id.textview)
         // 13 code goes here
         // 16 code goes here
     }
